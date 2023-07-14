@@ -1,0 +1,90 @@
+
+Aravind Ganga@LAPTOP-EHD9CTLN MINGW64 ~/OneDrive/Desktop/GitRepo
+$ git init
+Initialized empty Git repository in C:/Users/Aravind Ganga/OneDrive/Desktop/GitRepo/.git/
+
+Aravind Ganga@LAPTOP-EHD9CTLN MINGW64 ~/OneDrive/Desktop/GitRepo (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        firstGit.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Aravind Ganga@LAPTOP-EHD9CTLN MINGW64 ~/OneDrive/Desktop/GitRepo (master)
+$ git add firstGit.txt
+
+Aravind Ganga@LAPTOP-EHD9CTLN MINGW64 ~/OneDrive/Desktop/GitRepo (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   firstGit.txt
+
+
+Aravind Ganga@LAPTOP-EHD9CTLN MINGW64 ~/OneDrive/Desktop/GitRepo (master)
+$
+
+Aravind Ganga@LAPTOP-EHD9CTLN MINGW64 ~/OneDrive/Desktop/GitRepo (master)
+$
+
+Aravind Ganga@LAPTOP-EHD9CTLN MINGW64 ~/OneDrive/Desktop/GitRepo (master)
+$
+
+
+Aravind Ganga@LAPTOP-EHD9CTLN MINGW64 ~/OneDrive/Desktop/GitRepo (master)
+$
+
+Aravind Ganga@LAPTOP-EHD9CTLN MINGW64 ~/OneDrive/Desktop/GitRepo (master)
+$ git commit -m "Commit 1"
+bash: $'\302\236\302\236git': command not found
+
+Aravind Ganga@LAPTOP-EHD9CTLN MINGW64 ~/OneDrive/Desktop/GitRepo (master)
+$ git commit -m "Commit"
+bash: $'\302\236\302\236git': command not found
+
+Aravind Ganga@LAPTOP-EHD9CTLN MINGW64 ~/OneDrive/Desktop/GitRepo (master)
+$ aravind.1224@gmail.com^C
+
+Aravind Ganga@LAPTOP-EHD9CTLN MINGW64 ~/OneDrive/Desktop/GitRepo (master)
+$ git config --global user.emai"aravind.1224@gmail.com"
+
+Aravind Ganga@LAPTOP-EHD9CTLN MINGW64 ~/OneDrive/Desktop/GitRepo (master)
+$ git config --global user.name "AravindGanga"
+
+Aravind Ganga@LAPTOP-EHD9CTLN MINGW64 ~/OneDrive/Desktop/GitRepo (master)
+$ git commit -m "Commit"
+bash: $'\302\236\302\236git': command not found
+
+Aravind Ganga@LAPTOP-EHD9CTLN MINGW64 ~/OneDrive/Desktop/GitRepo (master)
+$ git commit -m "success"
+bash: $'\302\236\302\236git': command not found
+
+Aravind Ganga@LAPTOP-EHD9CTLN MINGW64 ~/OneDrive/Desktop/GitRepo (master)
+$ git commit "Hiii"
+error: pathspec 'Hiii' did not match any file(s) known to git
+
+Aravind Ganga@LAPTOP-EHD9CTLN MINGW64 ~/OneDrive/Desktop/GitRepo (master)
+$ git commit -m "Hiii"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Aravind Ganga@LAPTOP-EHD9CTLN.(none)')
+
+Aravind Ganga@LAPTOP-EHD9CTLN MINGW64 ~/OneDrive/Desktop/GitRepo (master)
+$
